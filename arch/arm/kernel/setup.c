@@ -644,6 +644,15 @@ static int __init msm_hw_rev_setup(char *p)
 }
 early_param("androidboot.revision", msm_hw_rev_setup);
 
+static int __init msm_hw_rev_setup_G(char *p)
+{
+	system_rev = memparse(p, NULL);
+	printk("androidboot.revision %x\n", system_rev);	
+	return 0;
+}
+
+early_param("androidboot.revision", msm_hw_rev_setup_G);
+
 static void __init request_standard_resources(struct machine_desc *mdesc)
 {
 	struct memblock_region *region;
