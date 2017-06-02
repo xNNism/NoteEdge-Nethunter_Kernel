@@ -1,4 +1,14 @@
-        Linux kernel release 3.x <http://kernel.org/>
+ If you want to rebuild and/or port, take a closer look at the diffs between /arch/arm/nethunter_defconfig
+ and the original .config.
+ 
+ ![zelda]https://www.zeldauniverse.net/wp-content/uploads/2012/01/83-Image-2.jpg
+ It's Dangerous to Go Alone! Take These:
+ *https://forum.xda-developers.com/showthread.php?t=1748297
+ *https://github.com/offensive-security/kali-nethunter/wiki/Porting-Nethunter
+ *https://github.com/offensive-security/kali-nethunter/wiki/Modifying-the-Kernel 
+ *https://forum.xda-developers.com/showthread.php?t=2133423
+  
+       Linux kernel release 3.x <http://kernel.org/>
 
 These are the release notes for Linux version 3.  Read them carefully,
 as they tell you what this is all about, explain how to install the
